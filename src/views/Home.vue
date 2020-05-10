@@ -7,10 +7,9 @@
 </template>
 
 <script>
+import BaseCheckbox from '@/components/BaseCheckbox.vue'
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import BaseCheckbox from '@/components/BaseCheckbox.vue'
-
 export default {
   name: 'Home',
   components: {
